@@ -1,0 +1,20 @@
+﻿<Window x:Class="Practic_8_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practic_8_WPF"
+        mc:Ignorable="d"
+        Title="Practic 8" Height="603" Width="896">
+    <Grid>
+        <Button x:Name="button_Add_element" Content="Add element" HorizontalAlignment="Left" Margin="143,59,0,0" VerticalAlignment="Top" Click="Add_item_button_Click"/>
+        <Button x:Name="button_Show_list" Content="Show the list" HorizontalAlignment="Left" Margin="758,173,0,0" VerticalAlignment="Top" Click="button_Show_list_Click"/>
+        <Button x:Name="button_Calculate" Content="Calculate" HorizontalAlignment="Left" Margin="758,291,0,0" VerticalAlignment="Top" Click ="calculate_areas_button_Click"/>
+        <RadioButton x:Name="Triangle_radiobutton" Content="Triangle" HorizontalAlignment="Left" Margin="61,50,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="Square_radiobutton" Content="Square" HorizontalAlignment="Left" Margin="61,71,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="showing_Items_TextBlock" HorizontalAlignment="Left" Margin="30,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="454" Width="370" Background="#FFDADADA"/>
+        <TextBlock x:Name="showing_Area_TextBlock" HorizontalAlignment="Left" Margin="419,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="454" Width="297" Background="#FFDADADA"/>
+        <Button Content="Terminate" HorizontalAlignment="Left" Margin="758,379,0,0" VerticalAlignment="Top" Click="Terminator_button_click"/>
+
+    </Grid>
+</Window>
